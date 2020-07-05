@@ -1,0 +1,52 @@
+html * {
+  font-family: Courier, monospace !important;
+}
+
+body {
+  color: white;
+  background-color: black;
+}
+
+div#NavBar {
+  padding-left: 1em;
+  border-bottom: 1px solid wheat;
+  -webkit-app-region: drag;
+}
+
+div#NavBar h1#AppTitle {
+  display: inline;
+}
+
+div#NavBar div.nav-icon {
+  position: absolute;
+  right: 0px;
+  -webkit-app-region: no-drag;
+}
+
+div#NavBar div#NavClose {
+  position: absolute;
+  right: 0px;
+  width: 50px;
+  top: 10px;
+}
+
+div#NavBar div#NavMaximize {
+  position: absolute;
+  right: 40px;
+  width: 55px;
+  top: 15px;
+}
+
+div#NavBar div#NavFullscreen {
+  position: absolute;
+  right: 80px;
+  width: 60px;
+  top: 15px;
+}
+
+div#NavBar div#NavMinimize {
+  position: absolute;
+  right: 118px;
+  width: 60px;
+  top: 7px;
+}

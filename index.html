@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+  <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'"> -->
+  <!-- <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'"> -->
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/fontawesome.min.css">
+  <script src="./js/all.min.js"></script>
+  <title>{ProjectName} </title>
+</head>
+
+<body>
+  <div id="NavBar">
+    <h1 id='AppTitle'>{ProjectName}</h1>
+    <div class='nav-icon' id='NavMinimize' title='Minimize'><i class="far fa-window-minimize fa-lg"></i></div>
+    <div class='nav-icon' id='NavFullscreen' title='Full Screen'><i class="far fa-tv-alt fa-lg"></i></div>
+    <div class='nav-icon' id='NavMaximize' title='Maxmimize'><i class="far fa-square-full fa-lg"></i></div>
+    <div class='nav-icon' id='NavClose' title='Close'><i class="far fa-window-close fa-2x"></i></div>
+  </div>
+
+  <script src="./renderer.js"></script>
+</body>
+
+</html>
